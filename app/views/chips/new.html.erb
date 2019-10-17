@@ -1,0 +1,7 @@
+<h1>Enter Your Chip</h1>
+<%= simple_form_for @chip do |f| %>
+  <%= f.input :flavour %>
+  <%= f.input :brand %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
